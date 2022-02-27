@@ -1,4 +1,5 @@
 # Angular
+
 Angular Modules are used to organize an application and consolidate components, directives and pipes into blocks of functionality
 There are some aspects need to be considered in during modularization:
 
@@ -8,6 +9,7 @@ There are some aspects need to be considered in during modularization:
 - Testability: How easy is it to test a single component? If the component is part of a large module, we may have to mock many services
 
 There are 3 strategies
+
 - Everything in one module
 - One module per feature (Lazy loading)
 - One module per component (SCAM)
@@ -24,3 +26,7 @@ Using flexibly combination of strategies 2, 3 is recommended
 --------- components → contains all internal components used in users module
 --------- pages → contains all components used in users routing module
 
+# References
+[JS Module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+[Angular Module](https://angular.io/guide/architecture-modules)
+[Angular Modules Practices](https://dev.to/this-is-angular/angular-modules-best-practices-2021-3lo5)
